@@ -262,7 +262,7 @@ Step 27. Right-click the start button, navigate to "System" and then to "Remote 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 28. 
+Step 28. Log into the domain controller virtual machine using the admin credentials.
 </p>
 <br />
 
@@ -270,40 +270,7 @@ Step 28.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 29. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 30. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 31. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 32. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 33. 
+Step 29. Search for "Windows PowerShell ISE", right-click the app and select "Run as administrator" to be able to create new user accounts.
 </p>
 <br />
 
@@ -312,7 +279,7 @@ Step 33.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 34. 
+Step 30. Within PowerShell ISE, click "New Script" and paste the script in "THIS DOCUMENT" and click "Run Script". *(Make sure the organizational unit in script line #43 matches the same one created in step 18)*
 </p>
 <br />
 
@@ -320,7 +287,7 @@ Step 34.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 35. 
+Step 31. If done correctly, you should see the new user accounts being generated within Windows PowerShell.
 </p>
 <br />
 
@@ -328,7 +295,40 @@ Step 35.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 36. 
+Step 32. Within Server Manager, open "Active Directory Users and Computers".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 33. Navigate to the "Employees" folder within the domain and observe the newly created user accounts.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 34. Select a random user, "bob.gog" and attempt to log into the Client 1 virtual machine using the password assigned to all accounts in the PowerShell script, "Password1".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 35. If the login is successful, then the creation of new users within Active Directory was succesful. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 36. Within Active Directory, the admin will be able to perform actions such as disabling an account, resetting of passwords and more.
 </p>
 <br />
 
