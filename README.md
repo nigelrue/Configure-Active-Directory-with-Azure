@@ -243,7 +243,7 @@ Step 25. Right-click the start menu and select "System". Click "Rename this PC" 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 26. 
+Step 26. Navigate to Remote Desktop Connection and log into the Client 1 virtual machine using the admin user credentials. 
 </p>
 <br />
 
@@ -254,7 +254,7 @@ Step 26.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 27. 
+Step 27. Right-click the start button, navigate to "System" and then to "Remote Desktop", click "Select users that can remotely access this PC". From here, click "Add" and type in "Domain Users" and click "Ok". This will allow all user accounts access to the domain controller.
 </p>
 <br />
 
