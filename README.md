@@ -181,7 +181,7 @@ Step 15. Once Active Directory Domain Services is finished installing, the remot
 <br />
 
 <p>
-<img src="https://i.postimg.cc/jdNDx3KV/temp-Imagehp-JOi-Q.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/pLXVZfwd/temp-Image-I7lw-Kv.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 16. Log into the domain controller virtual machine using the domain name chosen in step 13, followed by a forward slash and the username selected for the domain controller virtual machine.
