@@ -35,7 +35,7 @@ Step 1. Create a new Resource Group. Name it "RG-AD" and select region. Click "R
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/NMytsCr3/temp-Image-Tt3z8-G.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 2. Create a new virtual machine using the recently created Resource Group "RG-AD" and name it VM-DC1. Select the same region and select the image: Wnidows Server 2022.
@@ -43,7 +43,7 @@ Step 2. Create a new virtual machine using the recently created Resource Group "
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/d3rKd76n/temp-Image-IMODk-H.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 3. Select a username and password and click "Review+Create".
@@ -51,8 +51,8 @@ Step 3. Select a username and password and click "Review+Create".
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/sX3WbSQG/temp-Image-V6gp-Cn.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/1zhwcbyH/temp-Imagepf-Go-Cm.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 4. Create a second virtual machine using the "RG-AD" resource group and name it "Client 1" and use the image: Windows 10 Pro, Version 21H2.
@@ -60,7 +60,7 @@ Step 4. Create a second virtual machine using the "RG-AD" resource group and nam
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/BQzxtXyR/temp-Imagev-Lem-IJ.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 5. Make sure that both virtual machines are using the same virtual networks (VNETs) by verifying in the virtual machine's networking tab. Both should be using the "VM-DC1-vnet" virtual network.
@@ -68,7 +68,7 @@ Step 5. Make sure that both virtual machines are using the same virtual networks
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/XqzyZz29/temp-Imagek-EY7-Sj.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 6. Select the virtual machine directory, select the domain controller virtual machine, "network settings" tab and then the network interface.
@@ -76,7 +76,7 @@ Step 6. Select the virtual machine directory, select the domain controller virtu
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/BQzxtXyR/temp-Imagev-Lem-IJ.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 7. Select "ipconfig1" under the IP Configurations list. Under "Assignment", switch from "Dynamic" to "Static" and click "Save".
@@ -84,7 +84,7 @@ Step 7. Select "ipconfig1" under the IP Configurations list. Under "Assignment",
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/FzRLH4x9/temp-Image-X1ua8-S.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 8. Connect to the virtual machine, "VM-DC1", using its public IP address and username/password.
@@ -92,7 +92,7 @@ Step 8. Connect to the virtual machine, "VM-DC1", using its public IP address an
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/wx058Wkq/temp-Image-PPcu-ND.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 9. Search for Windows Defender Firewall with Advanced Security. Navigate to the Inbound Rules and search for both: Core Networking Diagnostics-ICMP Echo Request (ICMPv4-In)'s (the Private profile and Dynamic profile). Enable rules for both.
@@ -100,8 +100,8 @@ Step 9. Search for Windows Defender Firewall with Advanced Security. Navigate to
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/sX3WbSQG/temp-Image-V6gp-Cn.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/BvTDhN6G/temp-Image-U9-Vtg-U.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 10. Open Server Manager. Select  "Add Roles and Features" and click "Next". Make sure Role-based/feature based installation is selected and click "Next" and "Next" once more. 
