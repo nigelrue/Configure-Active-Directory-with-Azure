@@ -284,7 +284,7 @@ Step 29. Search for "Windows PowerShell ISE", right-click the app and select "Ru
 <img src="https://i.postimg.cc/Jzy0Y14W/temp-Image-Dvde-Hi.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 30. Within PowerShell ISE, click "New Script" and paste the script in "THIS DOCUMENT" and click "Run Script". *(Make sure the organizational unit in script line #43 matches the same one created in step 18)*
+Step 30. Within PowerShell ISE, click "New Script" and paste the script in <a href="https://github.com/nigelrue/Configure-Active-Directory-with-Azure/blob/main/PowerShell%20Script">THIS DOCUMENT</a> and click "Run Script". *(Make sure the organizational unit in script line #43 matches the same one created in step 18)*
 </p>
 <br />
 
