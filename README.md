@@ -19,10 +19,40 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+Step 1: Create an Azure Virtual Network
+Log in to the Azure Portal.
+Navigate to the "Create a resource" section.
+Search for "Virtual network" and select it.
+Follow the prompts to create a new virtual network, specifying the desired settings such as name, address space, and subnet configuration.
+
+Step 2: Create a Virtual Machine (VM) for the Domain Controller:
+Navigate to the "Create a resource" section in the Azure Portal.
+Search for "Virtual machine" and select it.
+Choose an appropriate operating system (such as Windows Server) for your domain controller.
+Follow the prompts to configure the VM, including specifications like size, storage, networking, and authentication.
+Once the VM is provisioned, make sure it's connected to the virtual network created in step 1.
+
+Step 3: Install Active Directory Domain Services
+Remote into the domain controller VM.
+Open Server Manager.
+Add the "Active Directory Domain Services" role to the server.
+Follow the installation wizard, which includes configuring the domain, forest, and administrative password.
+
+Step 4: Configure DNS
+After installing Active Directory Domain Services, DNS should already be configured.
+Ensure that the DNS settings on the domain controller VM point to its own IP address.
+In the Azure Portal, navigate to the virtual network settings and specify the DNS server as the IP address of the domain controller VM.
+
+Step 5: Join Other Virtual Machines to the Domain
+For each additional VM you want to join to the domain:
+Change the network settings of the VM to use the DNS server specified in step 4.
+Join the VM to the domain by accessing its system properties and clicking "Change" under the "Computer Name" tab.
+
+Step 6: Configure Active Directory Group Policies
+On the domain controller VM, open "Group Policy Management" from Server Manager.
+Create new Group Policy Objects (GPOs) or edit existing ones to apply desired configurations.
+Link the GPOs to the appropriate Organizational Units (OUs) containing the target VMs.
+Configure settings such as security policies, software installation, and user settings through Group Policy.
 
 <h2>Deployment and Configuration Steps</h2>
 
