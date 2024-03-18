@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://ibb.co/9qngch3" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/Fz1nk6GZ/temp-Image-ZJh7lu.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 1. Create a new Resource Group. Name it "RG-AD" and select region. Click "Review+Create".
